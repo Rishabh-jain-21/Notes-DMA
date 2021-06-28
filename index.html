@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic memory allocation</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="text">
+        <h1>Dynamic memory allocation</h1>
+        <p id="text">In primitice variables like int , float , char the memory is allocated at compile time in known as Static memory Allocation (It has fixed size once we create the memory block its size cant be changed) </p>
+        <p id="imp"> Dynamic Memory Allocation can be defined as a procedure in which the size of a data structure (like Array) is changed during the runtime.</p>
+        <p id="text">We use a library in c language for this called as <i>(stdlib.h) </i>. This library provide 4 major functino for <i>DMA</i> that are : <br> 1) Malloc() <br> 2) Calloc() <br> 3) reslloc() <br> 4) free()</p>
+        <hr>
+        <h1>Malloc</h1>
+        <p id="text">Used to allocate the memory to structure <i>(User defined data_types)</i><br>It takes one unsigned argument (it is a psitive integer value)</p>
+        <h2>How it allocates memory ?</h2>
+        <p id="text">On success , it return base address of memory block</p>
+        <p id="text">On failure , it return null pointer</p>
+        <h2>Coding part</h2>
+        <div class="image">
+            <img src="pic2.png" alt="Pic">
+        </div>
+        <br>
+        <div class="image">
+            <img src="pic1.png" alt="Pic">
+        </div>
+        <br>
+        <hr>
+        <h1>Calloc</h1>
+        <p id="text">Used to allocate the memory to Arrays</p>
+        <hr>
+        <h1>Realloc</h1>
+        <p id="text">increase / decrease the size of array</p>
+        <hr>
+        <h1>Free</h1>
+        <p id="text">delete the memory</p>
+    </div>
+</body>
+</html>
